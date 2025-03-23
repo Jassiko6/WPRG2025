@@ -1,0 +1,32 @@
+body {
+    background-color: #c4ddcf;
+}
+
+
+button {
+    background-color: grey;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 4px;
+}
+div.wrapper {
+    border: 1px solid darkgray;
+    background-color: white;
+    height: 100vh;
+}
+div.container {
+    margin: 6px;
+    background-color: #e3e3e3;
+}
+p {
+    font-size: large;
+    margin: 0;
+}
+
+.red {
+    color: red;
+}
+
+#small {
+    font-size: medium;
+}

@@ -1,0 +1,7 @@
+p {
+    border: 3px solid red;
+    a:link, a:visited {
+        color: blue;
+        text-decoration: none;
+    }
+}

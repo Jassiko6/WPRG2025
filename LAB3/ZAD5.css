@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: grey;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 13px 1px;
+}
+
+#red-box {
+    background-color: red;
+}
+
+#dark-blue-box {
+    background-color: darkblue;
+}
