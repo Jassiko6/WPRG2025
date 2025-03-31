@@ -1,0 +1,25 @@
+hr {
+    color: rgba(255, 255, 255, 0.8);
+}
+.wrapper {
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.text {
+    overflow: hidden;
+}
+
+.el {
+    float: left;
+    margin: 0 10px;
+}
