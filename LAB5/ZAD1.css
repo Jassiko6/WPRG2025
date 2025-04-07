@@ -1,0 +1,29 @@
+.flex-container{
+    display: flex;
+    border: black 2px solid;
+    justify-content: space-between;
+    height: 200px;
+    padding: 5px 10px;
+}
+.flex-container2{
+    display: flex;
+    border: black 2px solid;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+
+}
+.column {
+    width: 100%;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+}
+.box {
+    border: none;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+}
