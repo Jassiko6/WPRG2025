@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8" />
-<title>ZAD4</title>
-</head>
-<body>
-<form name="formularz">
-    <p>Imię: <input type="text" name="input"></p>
-    <p>Nazwisko: <input type="text" name="input"></p>
-    <p>Adres email: <input type="text" name="input"></p>
-    <p>Hasło: <input type="text" name="input"></p>
-    <p>Potwierdź hasło: <input type="text" name="input"></p>
-    <p>Wiek: <input type="text" name="input"></p>
-    <input type="submit" name="sub1" value="Zarejestruj się">
-</form>
-</body>
-</html>
+<?php
+echo "<table border = 1>";
+echo "<tr><th>imie</th><th>nazwisko</th><th>adres email</th><th>haslo</th><th>potwierdzone haslo</th><th>wiek</th></tr>";
+echo "<tr><td>{$_POST['imie']}</td><td>{$_POST['nazwisko']}</td><td>{$_POST['email']}</td><td>{$_POST['haslo']}</td><td>{$_POST['potwierdzoneHaslo']}</td><td>{$_POST['wiek']}</td></tr>";
